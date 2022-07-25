@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Freeze dependencies",
+            "label": "Create enviroment and install dependencies (Windows)",
             "type": "shell",
-            "command": "pip freeze > requirements.txt"
+            "command": "./install_dependencies.bat"
         }
     ]
 }
