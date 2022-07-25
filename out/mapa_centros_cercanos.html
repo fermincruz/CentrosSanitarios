@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_57ace7b5a2fb6b3257423d5c3ce482de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_57ace7b5a2fb6b3257423d5c3ce482de" ></div>
+        
+</body>
+<script>    
+    
+            var map_57ace7b5a2fb6b3257423d5c3ce482de = L.map(
+                "map_57ace7b5a2fb6b3257423d5c3ce482de",
+                {
+                    center: [36.52273968151157, -5.7441298381225065],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fcabdd8f0878b52c10a3053a4e36c7d3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_57ace7b5a2fb6b3257423d5c3ce482de);
+        
+    
+            var marker_f3f2105bf23a44f13e7a9c6b9b1a94ff = L.marker(
+                [36.52016726032299, -6.151330284937666],
+                {}
+            ).addTo(map_57ace7b5a2fb6b3257423d5c3ce482de);
+        
+    
+            var icon_6d346ce47f0ff26db0f89ef56b11dd6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3f2105bf23a44f13e7a9c6b9b1a94ff.setIcon(icon_6d346ce47f0ff26db0f89ef56b11dd6e);
+        
+    
+        var popup_b8f43ef2f86215d1b14bf85f7b212c9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae7ab72599f57dce19f3871de612aed5 = $(`<div id="html_ae7ab72599f57dce19f3871de612aed5" style="width: 100.0%; height: 100.0%;">HOSPITAL UNIVERSITARIO (PUERTO REAL)</div>`)[0];
+            popup_b8f43ef2f86215d1b14bf85f7b212c9d.setContent(html_ae7ab72599f57dce19f3871de612aed5);
+        
+
+        marker_f3f2105bf23a44f13e7a9c6b9b1a94ff.bindPopup(popup_b8f43ef2f86215d1b14bf85f7b212c9d)
+        ;
+
+        
+    
+    
+            var marker_b527c9cf4a7567878df385b950d02231 = L.marker(
+                [36.18539835133923, -5.430820449481864],
+                {}
+            ).addTo(map_57ace7b5a2fb6b3257423d5c3ce482de);
+        
+    
+            var icon_2ddfa0f859eddc791e377c9079217d11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b527c9cf4a7567878df385b950d02231.setIcon(icon_2ddfa0f859eddc791e377c9079217d11);
+        
+    
+        var popup_f8f3a45f23cb60232429ef8b35dccc02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d8eb33a7ad8133f8248d9dfc2304321 = $(`<div id="html_3d8eb33a7ad8133f8248d9dfc2304321" style="width: 100.0%; height: 100.0%;">HOSPITAL QUIRÓN SALUD CAMPO DE GIBR. (BARRIOS (LOS))</div>`)[0];
+            popup_f8f3a45f23cb60232429ef8b35dccc02.setContent(html_3d8eb33a7ad8133f8248d9dfc2304321);
+        
+
+        marker_b527c9cf4a7567878df385b950d02231.bindPopup(popup_f8f3a45f23cb60232429ef8b35dccc02)
+        ;
+
+        
+    
+    
+            var marker_282fc4e3ce325b73734e4c88cbf5eafc = L.marker(
+                [36.86265343287248, -5.65023877994799],
+                {}
+            ).addTo(map_57ace7b5a2fb6b3257423d5c3ce482de);
+        
+    
+            var icon_6025bd6f83d9cc6d51fe9328e2a87a98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_282fc4e3ce325b73734e4c88cbf5eafc.setIcon(icon_6025bd6f83d9cc6d51fe9328e2a87a98);
+        
+    
+        var popup_9bf9bc6afa25f8e8e52678783cfea1c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de524ea67657b12d54f318c4797cf279 = $(`<div id="html_de524ea67657b12d54f318c4797cf279" style="width: 100.0%; height: 100.0%;">HOSPITAL C. VIRGEN DE LAS MONTAÑAS (VILLAMARTIN)</div>`)[0];
+            popup_9bf9bc6afa25f8e8e52678783cfea1c0.setContent(html_de524ea67657b12d54f318c4797cf279);
+        
+
+        marker_282fc4e3ce325b73734e4c88cbf5eafc.bindPopup(popup_9bf9bc6afa25f8e8e52678783cfea1c0)
+        ;
+
+        
+    
+</script>
